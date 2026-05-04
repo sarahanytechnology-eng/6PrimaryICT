@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+:root {
+  --color-brand-primary: #4f46e5;
+  --color-brand-secondary: #0ea5e9;
+}
+
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  --card: #ffffff;
+  --border: #e2e8f0;
+}
+
+.dark {
+  --background: #0f172a; 
+  --foreground: #f1f5f9; 
+  --card: #1e293b;       
+  --border: #334155;     
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', sans-serif;
+  transition: all 0.3s ease;
+}
+
+/* 1. حل مشكلة المربعات البيضاء في كل الصفحات */
+.dark .bg-white, 
+.dark main, 
+.dark section,
+.dark .bg-slate-50,
+.dark [class*="bg-white"] { 
+  background-color: var(--card) !important;
+  color: var(--foreground) !important;
+  border-color: var(--border) !important;
+}
+
+/* 2. حل مشكلة الاختبارات والاختيارات (Quizzes) */
+/* هذا الجزء سيجعل الاختيارات واضحة جداً */
+.dark .relative.border, 
+.dark .rounded-xl.border,
+.dark button.border {
+  background-color: #1e293b !important;
+  border-color: var(--border) !important;
+}
+
+/* 3. إجبار النصوص على الوضوح (حل مشكلة الكلام اللي مش باين) */
+.dark h1, .dark h2, .dark h3, .dark h4, .dark p, .dark span, .dark label, .dark li {
+  color: var(--foreground) !important;
+}
+
+/* 4. تنسيق خاص للاختيارات عند الوقوف عليها (Hover) أو اختيارها */
+.dark .hover\:bg-blue-50:hover {
+  background-color: #2563eb !important;
+  color: white !important;
+}
+
+/* 5. أي نص واخد كلاس رمادي (slate-500/600) بنخليه فاتح في الدارك */
+.dark .text-slate-600, .dark .text-slate-500, .dark .text-slate-700 {
+  color: #cbd5e1 !important;
+}
+
+/* 6. تعديل الهيدر ليناسب المظهر الجديد */
+.dark header {
+  background-color: rgba(15, 23, 42, 0.8) !important;
+  border-bottom: 1px solid var(--border) !important;
+}
