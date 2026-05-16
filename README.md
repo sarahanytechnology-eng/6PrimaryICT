@@ -207,3 +207,99 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
       └─ page.js
 
 ```
+```
+6primary-app
+├─ AGENTS.md
+├─ CLAUDE.md
+├─ jsconfig.json
+├─ next.config.mjs
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.mjs
+├─ public
+│  ├─ file.svg
+│  ├─ globe.svg
+│  ├─ images
+│  │  ├─ 1.jpg
+│  │  └─ 2.jpg
+│  ├─ next.svg
+│  ├─ vercel.svg
+│  └─ window.svg
+├─ README.md
+└─ src
+   └─ app
+      ├─ contact
+      │  └─ page.jsx
+      ├─ favicon.ico
+      ├─ finaltest
+      │  └─ page.jsx
+      ├─ globals.css
+      ├─ lesson
+      │  ├─ page.jsx
+      │  ├─ part1
+      │  │  ├─ page.jsx
+      │  │  └─ test1
+      │  │     └─ page.jsx
+      │  ├─ part2
+      │  │  ├─ page.jsx
+      │  │  └─ test2
+      │  │     └─ page.jsx
+      │  └─ part3
+      │     ├─ page.jsx
+      │     └─ test3
+      │        └─ page.jsx
+      ├─ login
+      │  └─ page.jsx
+      ├─ page.js
+      └─ tailwind.config.js
+
+```
+```
+6primary-app
+├─ AGENTS.md
+├─ CLAUDE.md
+├─ jsconfig.json
+├─ next.config.mjs
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.mjs
+├─ public
+│  ├─ file.svg
+│  ├─ globe.svg
+│  ├─ images
+│  │  ├─ 1.jpg
+│  │  └─ 2.jpg
+│  ├─ next.svg
+│  ├─ vercel.svg
+│  └─ window.svg
+├─ README.md
+└─ src
+   └─ app
+      ├─ contact
+      │  └─ page.jsx
+      ├─ exams
+      │  └─ page.js
+      ├─ favicon.ico
+      ├─ finaltest
+      │  └─ page.jsx
+      ├─ globals.css
+      ├─ lesson
+      │  ├─ page.jsx
+      │  ├─ part1
+      │  │  ├─ page.jsx
+      │  │  └─ test1
+      │  │     └─ page.jsx
+      │  ├─ part2
+      │  │  ├─ page.jsx
+      │  │  └─ test2
+      │  │     └─ page.jsx
+      │  └─ part3
+      │     ├─ page.jsx
+      │     └─ test3
+      │        └─ page.jsx
+      ├─ login
+      │  └─ page.jsx
+      ├─ page.js
+      └─ tailwind.config.js
+
+```
