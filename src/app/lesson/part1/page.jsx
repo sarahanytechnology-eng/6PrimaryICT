@@ -100,7 +100,7 @@ export default function Part1() {
                 src="/images/2.jpg" 
                 alt="How Algorithms Work"
                 fill
-                className="object-cover"
+                className="object-contain"
               />
             </div>
           </div>
